@@ -24,4 +24,13 @@
  let workerSalary;
  let cursorCoordinates;
 
+ // 3 
+ let greeting;
+ greetings = 'Hello World!'
+ console.log(greetings);
+
+ let result = Number(10) / '8';
+ console.log('result', result);
+ console.log(typeof result)
+
  
