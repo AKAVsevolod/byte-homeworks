@@ -1,3 +1,4 @@
+ // 1
  let userAge;
  userAge = 18;
  console.log(userAge);
@@ -16,3 +17,11 @@
  const userInformation = userName + space + userSurname + space + userAge;
  console.log(userInformation)
 
+ // 2
+ let newUser;
+ let shoppingList;
+ let checkUserOnline;
+ let workerSalary;
+ let cursorCoordinates;
+
+ 
