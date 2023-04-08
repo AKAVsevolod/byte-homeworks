@@ -48,32 +48,54 @@
 
 // 4 
 
-let num1 = Number(prompt('Please enter Number1'));
-let num2 = Number(prompt('Please enter Number2'));
-let Operation = prompt('Which operation would you like to choose: +, -, *, / ?');
+// let num1 = Number(prompt('Please enter Number1'));
+// let num2 = Number(prompt('Please enter Number2'));
+// let Operation = prompt('Which operation would you like to choose: +, -, *, / ?');
 
-let additionAction = num1 + num2;
-let subtractionAction = num1 - num2;
-let multiplicationAction = num1 * num2;
-let actionOfDivision = num1 / num2;
-let space = ' ';
+// let additionAction = num1 + num2;
+// let subtractionAction = num1 - num2;
+// let multiplicationAction = num1 * num2;
+// let actionOfDivision = num1 / num2;
+// let space = ' ';
 
-switch (Operation) {
-    case '+' :
-        alert('Result is' + space + additionAction);
-        break;
-    case '-' :
-        alert('Result is' + space + subtractionAction);
-        break;
-    case '*' :
-        alert('Result is' + space + multiplicationAction);
-        break;
-    case '/' :
-        alert('Result is' + space + actionOfDivision);
-        break;
-    default :
-    alert('Unidentified operation!')
+// switch (Operation) {
+//     case '+' :
+//         alert('Result is' + space + additionAction);
+//         break;
+//     case '-' :
+//         alert('Result is' + space + subtractionAction);
+//         break;
+//     case '*' :
+//         alert('Result is' + space + multiplicationAction);
+//         break;
+//     case '/' :
+//         alert('Result is' + space + actionOfDivision);
+//         break;
+//     default :
+//     alert('Unidentified operation!')
+// }
+
+//5
+
+
+let visitorAge = Number(prompt('What is your age?'));
+let haveAdultsPermission = confirm('Do you have adults permission?');
+
+if ((visitorAge >= 12 && visitorAge <= 18) || (visitorAge >= 60 && visitorAge <= 80)) {
+    alert(haveAdultsPermission)
+} else if (haveAdultsPermission == 1) {
+    alert("You can enter");
+} else if (haveAdultsPermission == 0) {
+    alert("You can't enter");
+} else if (visitorAge > 18 && visitorAge < 60) {
+    alert("You can enter");
+} else {
+    alert("You can't enter");
 }
+
+
+
+
 
 
 
