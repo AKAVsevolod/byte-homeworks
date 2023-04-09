@@ -30,6 +30,22 @@
 // getSum(12, 5);
 // getSum(213, 100);
 
+// let sum = (a, b) => a + b;
+
+// let result = sum(10, 10);
+// console.log('Result', result)
+
+
+// 3
+
+// function getExponent(num, exponent = 2) {
+//     let result = num ** exponent;
+//     return result;
+// }
+// console.log('Result', getExponent(2));
+// console.log('Result', getExponent(2, 10));
+
+
 
 
 
