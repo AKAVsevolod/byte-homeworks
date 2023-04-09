@@ -77,21 +77,22 @@
 
 //5
 
-
 let visitorAge = Number(prompt('What is your age?'));
-let haveAdultsPermission = confirm('Do you have adults permission?');
+let haveAdultsPermission = confirm('Do you have adults permission?')
 
-if ((visitorAge >= 12 && visitorAge <= 18) || (visitorAge >= 60 && visitorAge <= 80)) {
-    alert(haveAdultsPermission)
-} else if (haveAdultsPermission == 1) {
-    alert("You can enter");
-} else if (haveAdultsPermission == 0) {
-    alert("You can't enter");
-} else if (visitorAge > 18 && visitorAge < 60) {
-    alert("You can enter");
+if ((visitorAge <= 12 && visitorAge >= 18) || (visitorAge >= 60 && visitorAge <= 80)) {
+    if(haveAdultsPermission) {
+        alert('You can enter')
+    }
+    else {
+        alert('You can not enter')
+    }
+} else if(visitorAge > 18 && visitorAge < 60) {
+    alert('You can enter')
 } else {
-    alert("You can't enter");
+    alert ('You can not enter')
 }
+
 
 
 
