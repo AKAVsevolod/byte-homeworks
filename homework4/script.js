@@ -46,6 +46,46 @@
 // console.log('Result', getExponent(2, 10));
 
 
+// 4
+
+// const thisDayNotExist = 'This day not exist';
+// const MONDAY = 'Monday';
+// const TUESDAY = 'Tuesday';
+// const WEDNESDAY = 'Wednesday';
+// const THURSDAY = 'Thursday';
+// const FRIDAY = 'Friday';
+// const SATURDAY ='Saturday';
+// const SUNDAY = 'Sunday';
+
+// function getDay(number) {
+//      if (number == 1) {
+//         return MONDAY;
+//     } else if (number == 2) {
+//         return TUESDAY;
+//     } else if (number == 3) {
+//         return WEDNESDAY;
+//     } else if (number == 4) {
+//         return THURSDAY;
+//     } else if (number == 5) {
+//         return FRIDAY;
+//     } else if (number == 6) {
+//         return SATURDAY;
+//     } else if (number == 7) {
+//         return SUNDAY;
+//     } else (number < 1 && number > 7) 
+//         return thisDayNotExist;
+// }
+
+// console.log('Your day', getDay(1));
+// console.log('Your day', getDay(2));
+// console.log('Your day', getDay(3));
+// console.log('Your day', getDay(4));
+// console.log('Your day', getDay(5));
+// console.log('Your day', getDay(6));
+// console.log('Your day', getDay(7));
+// console.log('Your day', getDay(10));
+
+
 
 
 
