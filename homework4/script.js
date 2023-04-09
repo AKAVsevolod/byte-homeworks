@@ -86,6 +86,22 @@
 // console.log('Your day', getDay(10));
 
 
+// 5
+ 
+// function showGreetings() {
+//     let userName = prompt('What is your name?');
+//     let userAge = prompt('What is your age?');
+
+//     if (userAge > 30) {
+//         alert('Good afternoon Mr/Mrs ' + userName)
+//     } else {
+//         alert('Hello ' + userName)
+//     }
+// }
+
+// showGreetings();
+
+
 
 
 
