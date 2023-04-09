@@ -19,4 +19,23 @@
 
 
 
+// 2
+
+// function getSum(a, b) {
+//     let result = a + b;
+//     console.log( 'Result', result);
+// }
+
+// getSum(10, 10);
+// getSum(12, 5);
+// getSum(213, 100);
+
+
+
+
+
+
+
+
+
 
