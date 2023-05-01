@@ -81,16 +81,16 @@
 
 // 2
 
-let num;
+// let num;
 
-const getRandomNumber = (min, max) => {  
-    do {
-       num = Math.floor(Math.random(num) * max)
-    } while (num <= min)
-    return num;
-}
+// const getRandomNumber = (min, max) => {  
+//     do {
+//        num = Math.floor(Math.random(num) * max)
+//     } while (num <= min)
+//     return num;
+// }
 
-const res = getRandomNumber();
-console.log(getRandomNumber(10, 20));
+// const res = getRandomNumber();
+// console.log(getRandomNumber(10, 20));
 
 
