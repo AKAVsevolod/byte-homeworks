@@ -72,7 +72,12 @@
 //     alert(userData);
 // }
 
-// logIn(authorize(), isGoodPass(userPassword));
+
+// сonst userName = autorize(),
+// const isGoodPass = userPass(),
+// logIn(userName, isGoodPass)
+
+
 
 // 2
 
